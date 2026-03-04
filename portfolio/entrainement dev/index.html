@@ -1,0 +1,124 @@
+<!-- Un algorithme -->
+<!-- Une suite d'instruction claire et précise. -->
+
+<!-- Client -->
+<!-- Le dev coté client, est la partie ou l'on va crée une interface utilisateur. -->
+
+<!-- Html Css Javascript -->   
+<!-- Le Html me sert a afficher des données brutes -->
+<!-- Le Css me permet de mettre en forme ces données -->
+<!-- Le Javascript me permet de rendre la page interactive -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Je vais afficher du contenu brut sur la page. -->
+    <!-- Ce contenu brut, s'affiche pas forcémment comme on veut, on va donc utiliser le CSS pour mettre en forme et/ou modifier ce contenu visuellement. -->
+    <!-- En partie on va utiliser le CSS pour modifier l'apparence d'un contenu, la couleur d'un bouton, la taille d'un texte, la position d'une image etc...
+    En partie, on va aussi utiliser le CSS pour faire de la mise en page, c'est a dire organiser le contenu d'une page web, pour que ce soit plus agréable a lire et a regarder. -->
+
+
+    <!-- Exercice 1 : -->
+    <!-- Nous voulons mettre en place petit a petit différents éléments sur ma page. Nous allons procéder partie par partie, section par section -->
+    <!-- Voici la liste des éléments que j'aimerais que l'on mette en place sur le site : -->
+    <!-- 
+    1. Une barre de navigation horizontale
+    Nous avons besoin d'afficher un élément HTML et le transformer en CSS pour qu'il ressemble a un menu horizontal. "navbar html css" "horizontal navbar html css"
+
+    2. Une bannière avec une image, et un titre+CTA(bouton) dessus
+    Une section dans laquelle nous voulons afficher un titre et un bouton, et une image DE FOND a cette section. ("banner html css", "jumbotron html css", "hero section html css")
+
+    3. Une section avec un article (Titre + image + texte)
+    On veut juste une section avec un semblant d'article, l'image peu importe, le texte aussi, faites le générer par Chatgpt au lieu de mettre "blablabla"
+    Ici rien n'est compliqué, mais il faut gérer l'affichage correct de l'image.
+
+    4. Une section en 3 colonnes a l'aide de Display Flex.
+    Une section avec 3 colonnes, chacune contenant un titre, une image et un texte. On va utiliser le display flex pour faire ça.
+    -->
+
+    <!-- NAVBAR -->
+    <nav>
+      <ul>
+        <li><a href="">Accueil</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Shop</a></li>
+        <li><a href="">Gallerie</a></li>
+      </ul>
+    </nav>
+    <!-- 1. Enlever les "bullets" des éléments de la liste.
+    2. Afficher les éléments de la liste horizontalement.
+    3. Ajouter un peu de style (couleur, padding, margin, hover etc...) -->
+
+    <!-- BANNIERE -->
+    <div class="banner">
+      <div class="banner-content">
+        <h1>Bienvenue sur notre site</h1>
+        <button>Call to Action</button>
+      </div>
+    </div>
+
+    <article>
+      <h2>En direct : Emmanuel Macron a réuni un conseil de défense ce matin ; une « quinzaine de soldats » français déjà présents à Nuuk pour un exercice militaire</h2>
+      <img src="https://img.lemde.fr/2026/01/06/0/1/5724/3816/1800/1200/75/0/757fd3c_ftp-1-4xp6y6q3thwi-2026-01-06t131200z-2009145218-rc2qtgahkyi4-rtrmadp-3-usa-trump-greenland-europe.JPG" alt="Image d'article">
+      <p>
+        Consacré notamment aux menaces américaines de prise de contrôle du Groenland et à la répression féroce en Iran, un conseil de défense a été convoqué en urgence jeudi à l’Elysée.<br> La France et plusieurs pays européens, dont l’Allemagne, mobilisent leurs armées sur le territoire autonome danois pour un exercice conjoint.
+      </p>
+      <div class="article-links">
+        <a href="">Groenland : il existe un « désaccord fondamental » entre le Danemark et les Etats-Unis, selon le ministre des affaires étrangères danois </a>
+        <a href="">Emmanuel Macron attendu devant les armées à Istres, sur fond de tensions géopolitiques persistantes au Groenland, en Iran et en Ukraine </a>
+      </div>
+    </article>
+
+    <section class="news">
+      <div class="column">
+        
+        <h2>Article 1</h2>
+        <img src="https://img.lemde.fr/2026/01/06/0/1/5724/3816/1800/1200/75/0/757fd3c_ftp-1-4xp6y6q3thwi-2026-01-06t131200z-2009145218-rc2qtgahkyi4-rtrmadp-3-usa-trump-greenland-europe.JPG" alt="Image d'article">
+        <p>
+          Consacré notamment aux menaces américaines de prise de contrôle du Groenland et à la répression féroce en Iran, un conseil de défense a été convoqué en urgence jeudi à l’Elysée.<br> La France et plusieurs pays européens, dont l’Allemagne, mobilisent leurs armées sur le territoire autonome danois pour un exercice conjoint.
+        </p>
+        <div class="article-links">
+          <a href="">Groenland : il existe un « désaccord fondamental » entre le Danemark et les Etats-Unis, selon le ministre des affaires étrangères danois </a>
+          <a href="">Emmanuel Macron attendu devant les armées à Istres, sur fond de tensions géopolitiques persistantes au Groenland, en Iran et en Ukraine </a>
+        </div>
+        
+      </div>
+      <div class="column">
+        
+        <h2>Article 2</h2>
+        <img src="https://img.lemde.fr/2026/01/06/0/1/5724/3816/1800/1200/75/0/757fd3c_ftp-1-4xp6y6q3thwi-2026-01-06t131200z-2009145218-rc2qtgahkyi4-rtrmadp-3-usa-trump-greenland-europe.JPG" alt="Image d'article">
+        <p>
+          Consacré notamment aux menaces américaines de prise de contrôle du Groenland et à la répression féroce en Iran, un conseil de défense a été convoqué en urgence jeudi à l’Elysée.<br> La France et plusieurs pays européens, dont l’Allemagne, mobilisent leurs armées sur le territoire autonome danois pour un exercice conjoint.
+        </p>
+        <div class="article-links">
+          <a href="">Groenland : il existe un « désaccord fondamental » entre le Danemark et les Etats-Unis, selon le ministre des affaires étrangères danois </a>
+          <a href="">Emmanuel Macron attendu devant les armées à Istres, sur fond de tensions géopolitiques persistantes au Groenland, en Iran et en Ukraine </a>
+        </div>
+        
+      </div>
+      <div class="column">
+        
+        <h2>Article 3</h2>
+        <img src="https://img.lemde.fr/2026/01/06/0/1/5724/3816/1800/1200/75/0/757fd3c_ftp-1-4xp6y6q3thwi-2026-01-06t131200z-2009145218-rc2qtgahkyi4-rtrmadp-3-usa-trump-greenland-europe.JPG" alt="Image d'article">
+        <p>
+          Consacré notamment aux menaces américaines de prise de contrôle du Groenland et à la répression féroce en Iran, un conseil de défense a été convoqué en urgence jeudi à l’Elysée.<br> La France et plusieurs pays européens, dont l’Allemagne, mobilisent leurs armées sur le territoire autonome danois pour un exercice conjoint.
+        </p>
+        <div class="article-links">
+          <a href="">Groenland : il existe un « désaccord fondamental » entre le Danemark et les Etats-Unis, selon le ministre des affaires étrangères danois </a>
+          <a href="">Emmanuel Macron attendu devant les armées à Istres, sur fond de tensions géopolitiques persistantes au Groenland, en Iran et en Ukraine </a>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- <div></div> Element Block (un saut a la ligne après)
+    <span></span> Element Inline (pas de saut a la ligne après) -->
+    <script src="script.js"></script>
+  </body>
+</html>

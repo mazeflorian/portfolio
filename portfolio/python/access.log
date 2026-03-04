@@ -1,0 +1,36 @@
+192.168.1.12 - - [03/Nov/2025:12:00:01 +0100] "GET /index.html HTTP/1.1" 200 512 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+10.0.0.5 - - [03/Nov/2025:12:00:03 +0100] "GET /admin HTTP/1.1" 404 210 "-" "Nmap Scripting Engine"
+172.16.0.8 - - [03/Nov/2025:12:00:05 +0100] "GET /phpmyadmin/index.php HTTP/1.1" 404 209 "-" "curl/7.68.0"
+192.168.1.45 - - [03/Nov/2025:12:00:07 +0100] "GET /login HTTP/1.1" 200 300 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"
+10.0.0.5 - - [03/Nov/2025:12:00:09 +0100] "GET /config.php HTTP/1.1" 404 215 "-" "Nmap Scripting Engine"
+172.16.0.8 - - [03/Nov/2025:12:00:11 +0100] "GET /setup.php HTTP/1.1" 404 198 "-" "curl/7.68.0"
+10.0.0.5 - - [03/Nov/2025:12:00:13 +0100] "GET /server-status HTTP/1.1" 404 220 "-" "Nmap Scripting Engine"
+172.16.0.8 - - [03/Nov/2025:12:00:15 +0100] "GET /hidden HTTP/1.1" 404 205 "-" "curl/7.68.0"
+192.168.1.12 - - [03/Nov/2025:12:00:17 +0100] "GET /contact HTTP/1.1" 200 400 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+192.168.1.12 - - [03/Nov/2025:12:00:19 +0100] "GET /robots.txt HTTP/1.1" 200 120 "-" "Googlebot/2.1 (+http://www.google.com/bot.html)"
+192.168.1.33 - - [03/Nov/2025:12:00:21 +0100] "GET /wp-login.php HTTP/1.1" 404 230 "-" "python-requests/2.25.1"
+192.168.1.33 - - [03/Nov/2025:12:00:23 +0100] "GET /wp-config.php HTTP/1.1" 404 240 "-" "python-requests/2.25.1"
+192.168.1.33 - - [03/Nov/2025:12:00:25 +0100] "GET /xmlrpc.php HTTP/1.1" 404 250 "-" "python-requests/2.25.1"
+192.168.1.33 - - [03/Nov/2025:12:00:27 +0100] "GET /readme.html HTTP/1.1" 404 260 "-" "python-requests/2.25.1"
+192.168.1.33 - - [03/Nov/2025:12:00:29 +0100] "GET /license.txt HTTP/1.1" 404 270 "-" "python-requests/2.25.1"
+192.168.1.12 - - [03/Nov/2025:12:00:31 +0100] "GET /style.css HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+83.45.67.89 - - [03/Nov/2025:08:12:01 +0100] "GET /home HTTP/1.1" 200 1024
+192.168.1.23 - - [03/Nov/2025:08:12:05 +0100] "GET /login HTTP/1.1" 404 512
+10.0.0.5 - - [03/Nov/2025:08:12:07 +0100] "GET /admin HTTP/1.1" 403 256
+172.16.0.2 - - [03/Nov/2025:08:12:10 +0100] "GET /dashboard HTTP/1.1" 200 2048
+203.0.113.45 - - [03/Nov/2025:08:12:12 +0100] "GET /wp-config.php HTTP/1.1" 404 512
+66.249.66.1 - - [03/Nov/2025:08:13:01 +0100] "GET /robots.txt HTTP/1.1" 200 64
+45.33.32.156 - - [03/Nov/2025:09:01:01 +0100] "GET /secret1 HTTP/1.1" 404 512
+45.33.32.156 - - [03/Nov/2025:09:01:02 +0100] "GET /secret2 HTTP/1.1" 404 512
+45.33.32.156 - - [03/Nov/2025:09:01:03 +0100] "GET /secret3 HTTP/1.1" 404 512
+45.33.32.156 - - [03/Nov/2025:09:01:04 +0100] "GET /secret4 HTTP/1.1" 404 512
+45.33.32.156 - - [03/Nov/2025:09:01:05 +0100] "GET /secret5 HTTP/1.1" 404 512
+198.51.100.23 - - [03/Nov/2025:09:15:12 +0100] "GET /about HTTP/1.1" 200 1024
+192.0.2.44 - - [03/Nov/2025:09:16:45 +0100] "GET /contact HTTP/1.1" 200 768
+203.0.113.45 - - [03/Nov/2025:09:17:01 +0100] "GET /nonexistent HTTP/1.1" 404 512
+10.0.0.5 - - [03/Nov/2025:09:18:22 +0100] "GET /admin HTTP/1.1" 403 256
+172.16.0.2 - - [03/Nov/2025:09:19:10 +0100] "GET /dashboard HTTP/1.1" 200 2048
+192.168.1.23 - - [03/Nov/2025:09:20:05 +0100] "GET /login HTTP/1.1" 404 512
+83.45.67.89 - - [03/Nov/2025:09:21:01 +0100] "GET /home HTTP/1.1" 200 1024
+203.0.113.45 - - [03/Nov/2025:09:22:12 +0100] "GET /wp-config.php HTTP/1.1" 404 512
+66.249.66.1 - - [03/Nov/2025:09:23:01 +0100] "GET /robots.txt HTTP/1.1" 200 64 192

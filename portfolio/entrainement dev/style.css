@@ -1,0 +1,76 @@
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-image: url('https://img.lemde.fr/2026/01/06/0/1/5724/3816/1800/1200/75/0/757fd3c_ftp-1-4xp6y6q3thwi-2026-01-06t131200z-2009145218-rc2qtgahkyi4-rtrmadp-3-usa-trump-greenland-europe.JPG');
+    background-position: center;
+    background-size: cover;
+    padding: 5em;
+}
+
+.banner-content {
+    color: white;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(166, 192, 242);
+    border: 1px solid darkblue;
+    color: black;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+article {
+    width: 70%;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+.article-links a {
+    text-decoration: none;
+    color: rgb(38, 37, 37);
+    display:block;
+}
+
+.article-links a:hover {
+    text-decoration: underline;
+}
+
+.news {
+    display:flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.column {
+    width:25%;
+}
