@@ -1,0 +1,8 @@
+---
+- name: HealthCheck 
+  hosts: app
+  become: true
+  user: root 
+  tasks:
+    - name: ping 
+      ansible.builtin.ping:

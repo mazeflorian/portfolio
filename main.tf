@@ -36,8 +36,8 @@ resource "aws_vpc_security_group_ingress_rule" "allow_http" {
 
 
 resource "aws_vpc_security_group_ingress_rule" "allow_icmp" {
-  from_port         = -1
-  to_port           = -1
+  from_port         = "-1"
+  to_port           = "-1"
   ip_protocol       = "icmp"
   cidr_ipv4         = "0.0.0.0/0"
   security_group_id = aws_security_group.florian_security_group.id
